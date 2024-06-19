@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: docker.io
-  IMAGE_NAME: klaytn/klaytn-dex-subgraphs
+  IMAGE_NAME: kaiachain/open-dex-subgraphs
 
 jobs:
   docker:

@@ -4,7 +4,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: StakingFactory
-    network: baobab
+    network: kairos
     source:
       abi: StakingFactory
       address: "0x3c1442981f9f14b07A05b4A6fB0c825a8167A8BD"
@@ -35,7 +35,7 @@ dataSources:
 templates:
   - name: StakingPool
     kind: ethereum/contract
-    network: baobab
+    network: kairos
     source:
       abi: StakingPool
     mapping:

@@ -4,7 +4,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: DexFactory
-    network: baobab
+    network: kairos
     source:
       abi: DexFactory
       address: "0x339ba51a3D65Ad5418aee14b0546088bFe99403c"
@@ -32,7 +32,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: DexPair
-    network: baobab
+    network: kairos
     source:
       abi: DexPair
     mapping:

@@ -1,12 +1,12 @@
 specVersion: 0.0.3
-description: Track farming pools and releted info in Klaytn Dex
-repository: https://github.com/klaytn-dex-subgraphs
+description: Track farming pools and releted info in Kaia Dex
+repository: https://github.com/kaiachain/open-dex-subgraphs
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Farming
-    network: baobab
+    network: kairos
     source:
       abi: Farming
       address: "0xf68b8d3fae7FEB747cB4dCe0a4c91A100B140245"
